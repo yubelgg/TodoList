@@ -6,6 +6,7 @@
   --light: #eee;
   --pink: #ec4899;
   --purple: #8b5cf6;
+  --yellow: #fce700;
 }
 
 * {
@@ -23,16 +24,16 @@ body {
 }
 
 header {
-  padding: 2rem 1rem; /* 2rem is vertical, 1rem is horizontal*/
+  padding: 2rem;
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
 
 header h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 300;
-  color: var(--gray);
+  color: var(--yellow);
   margin-bottom: 1rem;
 }
 
@@ -96,7 +97,7 @@ main {
 .task-list h2 {
   font-size: 2rem;
   font-weight: 300;
-  color: var(--gray);
+  color: var(--yellow);
   margin-bottom: 1rem;
 }
 
@@ -155,4 +156,13 @@ main {
 
 .task .actions .delete {
   color: crimson;
+}
+
+.back {
+  aspect-ratio: 900/600;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("./images/blurry-gradient-haikei.svg");
 }

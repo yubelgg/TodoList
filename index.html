@@ -6,40 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task List 2022</title>
     <link rel="stylesheet" href="main.css" />
+    <link rel="icon" href="images/to-do-list.ico" />
   </head>
   <body>
-    <header>
-      <h1>Task List 2022</h1>
-      <form id="create-task">
-        <input
-          type="text"
-          id="create-new-task-input"
-          placeholder="Upcoming Task"
-        />
-        <input type="submit" id="new-task-submit" value="Add Task" />
-      </form>
-    </header>
-    <main>
-      <section class="task-list">
-        <h2>Task List</h2>
-        <div id="tasks">
-          <!-- <div class="task">
-            <div class="contents">
-              <input
-                type="text"
-                class="text"
-                value="Your Personal Task List"
-                readonly
-              />
-            </div>
-            <div class="actions">
-              <button class="edit">Edit</button>
-              <button class="delete">Delete</button>
-            </div>
-          </div> -->
-        </div>
-      </section>
-    </main>
+    <div class="back">
+      <header>
+        <h1>Task List 2022</h1>
+        <form id="create-task">
+          <input
+            type="text"
+            id="create-new-task-input"
+            placeholder="Upcoming Task"
+          />
+          <input type="submit" id="new-task-submit" value="Add Task" />
+        </form>
+      </header>
+      <main>
+        <section class="task-list">
+          <h2>Task List</h2>
+          <div id="tasks">
+            <!-- <div class="task">
+              <div class="contents">
+                <input
+                  type="text"
+                  class="text"
+                  value="Your Personal Task List"
+                  readonly
+                />
+              </div>
+              <div class="actions">
+                <button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+              </div>
+            </div> -->
+          </div>
+        </section>
+      </main>
+    </div>
     <script src="main.js"></script>
+    <!-- create morph animation -->
+    <!-- <script>
+      const tween = KUTE.fromTo(
+        "blob1",
+        { path: "#blob1" },
+        { path: "#blob2" }
+      );
+    </script> -->
   </body>
 </html>
